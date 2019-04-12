@@ -8,7 +8,7 @@
 ## Steps to test the application
 
 - Clone the repository
-- run cp .env.example .env and adjust your database preferences in .env file
+- run <code>cp .env.example .env</code> and adjust your database preferences in .env file
 - run php artisan key:generate
 - run php artisan migrate
 - run php artisan passport:keys
